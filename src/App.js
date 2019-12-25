@@ -1,8 +1,9 @@
 import React from 'react';
 import Header from './components/Header';
+import Main from './components/Main';
 import slides from './api/slides.json';
 import products from './api/products.json';
-import './css/elements/_header.scss';
+
 
 class App extends React.Component {
   constructor(props) {
@@ -18,7 +19,10 @@ class App extends React.Component {
     return (
       <div className="app">
         <Header />
-
+        <Main 
+          products={this.state.products}
+          slides={this.state.slides}
+        />
       </div >
     );
   }

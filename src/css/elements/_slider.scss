@@ -1,4 +1,98 @@
 // TODO: Desarrollar el CSS para el slider
-.slider {
+@import '../base/normalize';
+@import '../base/variables';
 
+
+.main__products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 160px;
 }
+
+.products-title {
+    text-transform: uppercase;
+}
+
+.btn {
+    text-transform: uppercase;
+}
+
+.container-slide {
+    position: absolute;
+}
+
+.text-slide {
+    position: relative;
+    top: 250px;
+    left: 450px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: white;
+    background-color: var(--orange);
+    display: flex;
+    width: 500px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.products-btn {
+    text-transform: uppercase;
+    color: white;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: black;
+    height: 40px;
+    width: 200px;
+    font-weight: 700;
+    align-items: center;
+    
+}
+
+ .even-text {
+    position: relative;
+    top: 250px;
+    left: 700px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: white;
+    background-color: var(--orange);
+    display: flex;
+    width: 500px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
+.btn-slide {
+    text-transform: uppercase;
+    position: relative;
+    top: 270px;
+    left: 450px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: black;
+    height: 40px;
+    width: 100px;
+    font-weight: 700;
+}
+
+.even-btn {
+    text-transform: uppercase;
+    position: relative;
+    top: 270px;
+    left: 1100px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: black;
+    height: 40px;
+    width: 100px;
+    font-weight: 700;
+}
+

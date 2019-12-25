@@ -8,28 +8,28 @@
             "title": "Título para la primera slide",
             "button_text": "Comprar",
             "button_link": "#",
-            "bg_image": "resources/slider/slide1.jpg"
+            "bg_image": "../resources/slider/slide1.jpg"
         },
         {
             "id": 2,
             "title": "Título para la segunda slide",
             "button_text": "Comprar",
             "button_link": "#",
-            "bg_image": "resources/slider/slide2.jpg"
+            "bg_image": "../resources/slider/slide2.jpg"
         },
         {
             "id": 3,
             "title": "Título para la tercera slide",
             "button_text": "Comprar",
             "button_link": "#",
-            "bg_image": "resources/slider/slide3.jpg"
+            "bg_image": "../resources/slider/slide3.jpg"
         },
         {
             "id": 4,
             "title": "Título para la cuarta slide",
             "button_text": "Comprar",
             "button_link": "#",
-            "bg_image": "resources/slider/slide4.jpg"
+            "bg_image": "../resources/slider/slide4.jpg"
         }
     ]
 }
