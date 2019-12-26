@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Main from './components/Main';
+import Footer from './components/Footer';
 import slides from './api/slides.json';
 import products from './api/products.json';
 
@@ -23,6 +24,7 @@ class App extends React.Component {
           products={this.state.products}
           slides={this.state.slides}
         />
+        <Footer />
       </div >
     );
   }
