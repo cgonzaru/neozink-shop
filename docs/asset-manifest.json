@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "./static/css/main.e49b0cb1.chunk.css",
+    "main.js": "./static/js/main.4706d1b0.chunk.js",
+    "main.js.map": "./static/js/main.4706d1b0.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.ae26ba65.js",
+    "runtime-main.js.map": "./static/js/runtime-main.ae26ba65.js.map",
+    "static/css/2.1fd2b905.chunk.css": "./static/css/2.1fd2b905.chunk.css",
+    "static/js/2.afe0072b.chunk.js": "./static/js/2.afe0072b.chunk.js",
+    "static/js/2.afe0072b.chunk.js.map": "./static/js/2.afe0072b.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.0e95e51dcbdbc6c9726a9036c404b6e9.js": "./precache-manifest.0e95e51dcbdbc6c9726a9036c404b6e9.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.1fd2b905.chunk.css.map": "./static/css/2.1fd2b905.chunk.css.map",
+    "static/css/main.e49b0cb1.chunk.css.map": "./static/css/main.e49b0cb1.chunk.css.map",
+    "static/js/2.afe0072b.chunk.js.LICENSE": "./static/js/2.afe0072b.chunk.js.LICENSE",
+    "static/media/cta1mod.jpg": "./static/media/cta1mod.488a12ca.jpg",
+    "static/media/cta2mod.jpg": "./static/media/cta2mod.beabde98.jpg",
+    "static/media/logo.png": "./static/media/logo.94ba3819.png",
+    "static/media/slide1.jpg": "./static/media/slide1.47bc653c.jpg",
+    "static/media/slide2.jpg": "./static/media/slide2.8bf20197.jpg",
+    "static/media/slide3.jpg": "./static/media/slide3.87698b4b.jpg",
+    "static/media/slide4.jpg": "./static/media/slide4.96c38289.jpg",
+    "static/media/vans1.png": "./static/media/vans1.323b1d00.png",
+    "static/media/vans2.png": "./static/media/vans2.36ebbb7e.png",
+    "static/media/vans3.png": "./static/media/vans3.34d99097.png",
+    "static/media/vans4.png": "./static/media/vans4.e72705c4.png",
+    "static/media/vans5.png": "./static/media/vans5.e4ff2d47.png",
+    "static/media/vans6.png": "./static/media/vans6.471c6458.png",
+    "static/media/vans7.png": "./static/media/vans7.8109ea08.png",
+    "static/media/vans8.png": "./static/media/vans8.fb94936c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae26ba65.js",
+    "static/css/2.1fd2b905.chunk.css",
+    "static/js/2.afe0072b.chunk.js",
+    "static/css/main.e49b0cb1.chunk.css",
+    "static/js/main.4706d1b0.chunk.js"
+  ]
+}
