@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import slide1 from '../resources/slider/slide1.jpg';
 import slide2 from '../resources/slider/slide2.jpg';
 import slide3 from '../resources/slider/slide3.jpg';
@@ -22,6 +23,10 @@ import { Container, Row, Col } from 'react-grid-system';
 
 const Main = props => {
 	const { products, slides } = props;
+	const title = slides.map(item => item.title);
+	const price = products.map(item => item.price);
+	const name = products.map(item => item.name);
+	const button_text = products.map(item => item.button_text);
 
 	return (
 		<main className="main">
@@ -35,22 +40,22 @@ const Main = props => {
 						<Slider>
 							<Slide index={0}>
 								<img src={slide1} alt="slide1" className="container-slide" />
-								<div className="text-slide">Título para la primera slide</div>
+								<div className="text-slide">{title[0]}</div>
 								<button className="btn-slide">Comprar</button>
 							</Slide>
 							<Slide index={1}>
 								<img src={slide2} alt="slide2" className="container-slide" />
-								<div className="even-text">Título para la segunda slide</div>
+								<div className="even-text">{title[1]}</div>
 								<button className="even-btn">Comprar</button>
 							</Slide>
 							<Slide index={2}>
 								<img src={slide3} alt="slide3" className="container-slide" />
-								<div className="text-slide">Título para la tercera slide</div>
+								<div className="text-slide">{title[2]}</div>
 								<button className="btn-slide">Comprar</button>
 							</Slide>
 							<Slide index={3}>
 								<img src={slide4} alt="slide4" className="container-slide" />
-								<div className="even-text">Título para la cuarta slide</div>
+								<div className="even-text">{title[3]}</div>
 								<button className="even-btn">Comprar</button>
 							</Slide>
 						</Slider>
@@ -65,42 +70,42 @@ const Main = props => {
 									<div className="vans-container">
 										<img src={vans1} alt="vans1" className="vans-img" />
 										<div className="vans">
-											<div className="vans-text">OLD SKOOL 36 DX</div>
-											<div className="price">85,00 €</div>
+											<div className="vans-text">{name[0]}</div>
+											<div className="price">{price[0]}</div>
 										</div>
-										<button className="vans-btn button">Comprar</button>
+										<button className="vans-btn button">{button_text[0]}</button>
 									</div>
 								</Col>
 								<Col sm={4}>
-								<div className="vans-container">
+									<div className="vans-container">
 										<img src={vans2} alt="vans2" className="vans-img" />
 										<div className="vans">
-											<div className="vans-text">COMFYCUSH OLD SKOOL</div>
-											<div className="price">75,00 €</div>
+											<div className="vans-text">{name[1]}</div>
+											<div className="price">{price[1]}</div>
 										</div>
-										<button className="vans-btn button">Comprar</button>
+										<button className="vans-btn button">{button_text[1]}</button>
 									</div>
 								</Col>
 								<Col sm={4}>
-								<div className="vans-container">
+									<div className="vans-container">
 										<img src={vans3} alt="vans3" className="vans-img" />
 										<div className="vans">
-											<div className="vans-text">OLD SKOOL DE ANTE Y LONA</div>
-											<div className="price">60,00 €</div>
+										<div className="vans-text">{name[2]}</div>
+											<div className="price">{price[2]}</div>
 										</div>
-										<button className="vans-btn button">Comprar</button>
+										<button className="vans-btn button">{button_text[2]}</button>
 									</div>
 								</Col>
 							</Row>
 							<Row className="row-container">
 								<Col sm={4}>
-								<div className="vans-container">
+									<div className="vans-container">
 										<img src={vans4} alt="vans4" className="vans-img" />
 										<div className="vans">
-											<div className="vans-text">OLD SKOOL DE ANTE SUAVE</div>
-											<div className="price">65,00 €</div>
+										<div className="vans-text">{name[3]}</div>
+											<div className="price">{price[3]}</div>
 										</div>
-										<button className="vans-btn button">Comprar</button>
+										<button className="vans-btn button">{button_text[3]}</button>
 									</div>
 								</Col>
 								<Col sm={8}>
@@ -112,33 +117,33 @@ const Main = props => {
 							</Row>
 							<Row className="row-container">
 								<Col sm={4}>
-								<div className="vans-container">
+									<div className="vans-container">
 										<img src={vans5} alt="vans5" className="vans-img" />
 										<div className="vans">
-											<div className="vans-text">OLD SKOOL PRO</div>
-											<div className="price">95,00 €</div>
+										<div className="vans-text">{name[4]}</div>
+											<div className="price">{price[4]}</div>
 										</div>
-										<button className="vans-btn button">Comprar</button>
+										<button className="vans-btn button">{button_text[4]}</button>
 									</div>
 								</Col>
 								<Col sm={4}>
-								<div className="vans-container">
+									<div className="vans-container">
 										<img src={vans6} alt="vans6" className="vans-img" />
 										<div className="vans">
-											<div className="vans-text">ANTI HERO OLD SKOOL PRO</div>
-											<div className="price">95,00 €</div>
+										<div className="vans-text">{name[5]}</div>
+											<div className="price">{price[5]}</div>
 										</div>
-										<button className="vans-btn button">Comprar</button>
+										<button className="vans-btn button">{button_text[5]}</button>
 									</div>
 								</Col>
 								<Col sm={4}>
-								<div className="vans-container">
+									<div className="vans-container">
 										<img src={vans7} alt="vans7" className="vans-img" />
 										<div className="vans">
-											<div className="vans-text">ERA PRIMARY CHECK</div>
-											<div className="price">95,00 €</div>
+										<div className="vans-text">{name[6]}</div>
+											<div className="price">{price[6]}</div>
 										</div>
-										<button className="vans-btn button">Comprar</button>
+										<button className="vans-btn button">{button_text[6]}</button>
 									</div>
 								</Col>
 							</Row>
@@ -149,20 +154,20 @@ const Main = props => {
 									</div>
 								</Col>
 								<Col sm={4}>
-								<div className="vans-container">
+									<div className="vans-container">
 										<img src={vans8} alt="vans8" className="vans-img" />
 										<div className="vans">
-											<div className="vans-text">STYLE 36</div>
-											<div className="price">80,00 €</div>
+										<div className="vans-text">{name[7]}</div>
+											<div className="price">{price[7]}</div>
 										</div>
-										<button className="vans-btn button">Comprar</button>
+										<button className="vans-btn button">{button_text[7]}</button>
 									</div>
 								</Col>
 
 							</Row>
 						</Container>
 					</div>
-					
+
 				</div>
 				<div className="load">
 
@@ -172,6 +177,11 @@ const Main = props => {
 		</main >
 	);
 
+};
+
+Main.propTypes = {
+	products: PropTypes.arrayOf(PropTypes.object).isRequired,
+	slides: PropTypes.arrayOf(PropTypes.object).isRequired
 };
 
 export default Main;

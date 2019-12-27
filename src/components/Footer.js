@@ -5,7 +5,7 @@ import '../css/elements/_footer.scss';
 const Footer = props => {
 
 	return (
-		<footer class="footer">
+		<footer className="footer">
 			<p><img src={logo} alt="Neoshop" title="Neoshop" /></p>
 			<p>Prueba técnica para candidatos</p>
 		</footer>
